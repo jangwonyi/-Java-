@@ -1,0 +1,14 @@
+package Program;
+
+import java.util.Scanner;
+
+public class IOProgram {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String inputString = sc.nextLine(); //입력 : 초록
+		System.out.println(inputString); //출력 : 검정
+		System.err.println(inputString); //에러 : 빨강
+	}
+
+}
